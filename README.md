@@ -27,7 +27,7 @@ ansible-playbook playbooks/check-status.yml
 👤 **Josh Bailey**
 
 * Github: [@binkocd](https://github.com/binkocd)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/joshuarobertbailey\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/joshuarobertbailey\/)
+* LinkedIn: [@joshuarobertbailey](https://www.linkedin.com\/in\/joshuarobertbailey\/)
 
 ## Show your support
 
