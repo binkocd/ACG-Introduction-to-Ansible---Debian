@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-git clone
+git clone git@github.com:binkocd/ACG-Introduction-to-Ansible---Debian.git
 ```
 
 ## Usage
