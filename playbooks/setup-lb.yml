@@ -4,12 +4,22 @@
   - hosts: loadbalancers
     become: true
     tasks:
-      - name: Install Apache Modules
+      - name: Install Apache Module proxy
         apache2_module: name=proxy state=present
+        notify: restart apache
+
+      - name: Install Apache Module proxy_http 
         apache2_module: name=proxy_http state=present
+        notify: restart apache
+
+      - name: Install Apache Module proxy_balancer
         apache2_module: name=proxy_balancer state=present
+        notify: restart apache
+
+      - name: Install Apache Module lbmethod_byrequests
         apache2_module: name=lbmethod_byrequests state=present
- 
+        notify: restart apache
+
       - name: Creating template
         template:
           src: ../config/lb-config.j2
