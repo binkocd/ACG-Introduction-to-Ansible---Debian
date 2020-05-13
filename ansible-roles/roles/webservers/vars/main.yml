@@ -1,0 +1,4 @@
+---
+# vars file for roles/webserver
+
+path_to_app: "/var/www/html"
